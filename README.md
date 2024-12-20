@@ -16,12 +16,14 @@ This project requires the following hardware for each node:
 - Docker: Ensure Docker is installed on your system. You can download it from Docker's official website.
 - Docker Compose Plugin: Make sure you have the Docker Compose plugin installed. If you're using a recent version of Docker Desktop, it should be included. Otherwise, follow these instructions for installation.
 
+https://docs.docker.com/engine/install/debian/
+
 ## Installation
 
 ```bash
 git clone https://github.com/NotReeceHarris/rpi-lora-encrypted-comms.git
 cd rpi-lora-encrypted-comms
-docker compose up --build
+docker compose up --build -d
 ```
 I aim to provide pre-configured ISO images for the Raspberry Pi Zero 2 W in the future to simplify deployment on this specific hardware.
 
