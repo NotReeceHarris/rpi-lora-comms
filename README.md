@@ -2,6 +2,43 @@
 
 Secure, long-range communication system using Raspberry Pi with encrypted radio transmission.
 
+## Hardware Requirements
+
+This project requires the following hardware for each node:
+
+- **LoRa HAT:** [SX1268 LoRa HAT for Raspberry Pi (433MHz)](https://thepihut.com/products/sx1268-lora-hat-for-raspberry-pi-433mhz)
+- **Raspberry Pi:** [Raspberry Pi Zero 2 W (With headers)](https://thepihut.com/products/raspberry-pi-zero-2?variant=43855634497731)
+
+**Note:** You will need two sets of this hardware to create a basic point-to-point communication system.
+
+## Prerequisites
+
+- Docker: Ensure Docker is installed on your system. You can download it from Docker's official website.
+- Docker Compose Plugin: Make sure you have the Docker Compose plugin installed. If you're using a recent version of Docker Desktop, it should be included. Otherwise, follow these instructions for installation.
+
+## Installation
+
+```bash
+git clone https://github.com/NotReeceHarris/rpi-lora-encrypted-comms.git
+cd rpi-lora-encrypted-comms
+docker compose up --build
+```
+I aim to provide pre-configured ISO images for the Raspberry Pi Zero 2 W in the future to simplify deployment on this specific hardware.
+
+### Additional Tips
+
+```bash
+# Building with No Cache: If you encounter issues or want to force a complete rebuild
+docker compose build --no-cache
+
+# Running in Detached Mode: To run the containers in the background
+docker compose up --build -d
+
+# Stopping the Containers: To stop the running containers
+docker compose down
+```
+
+<!--
 ## System Overview
 
 - **WiFi Hotspot:** Raspberry Pi acts as a WiFi access point that mobile or laptop devices can connect to.
@@ -12,15 +49,7 @@ Secure, long-range communication system using Raspberry Pi with encrypted radio 
   - Encryption and decryption of messages
   - System information retrieval
 - **Communication:** Data exchange between the website and Python API using WebSockets for real-time updates and a polling API for status checks.
-
-## Hardware Requirements
-
-This project requires the following hardware for each node:
-
-- **LoRa HAT:** [SX1268 LoRa HAT for Raspberry Pi (433MHz)](https://thepihut.com/products/sx1268-lora-hat-for-raspberry-pi-433mhz)
-- **Raspberry Pi:** [Raspberry Pi Zero 2 W (With headers)](https://thepihut.com/products/raspberry-pi-zero-2?variant=43855634497731)
-
-**Note:** You will need two sets of this hardware to create a basic point-to-point communication system.
+-->
 
 ## What is LoRa?
 
