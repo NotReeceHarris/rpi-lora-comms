@@ -16,8 +16,6 @@ This project requires the following hardware for each node:
 - Docker: Ensure Docker is installed on your system. You can download it from Docker's official website.
 - Docker Compose Plugin: Make sure you have the Docker Compose plugin installed. If you're using a recent version of Docker Desktop, it should be included. Otherwise, follow these instructions for installation.
 
-https://docs.docker.com/engine/install/debian/
-
 ## Installation
 
 ```bash
@@ -53,6 +51,11 @@ docker compose down
 - **Communication:** Data exchange between the website and Python API using WebSockets for real-time updates and a polling API for status checks.
 -->
 
+## Docs
+
+- [SX1268 433M LoRa HAT](https://www.waveshare.com/wiki/SX1268_433M_LoRa_HAT)
+- [Docker Compose](https://docs.docker.com/engine/install/debian/)
+
 ## What is LoRa?
 
 LoRa (Long Range) is a wireless modulation technique based on Chirp Spread Spectrum (CSS) technology, which uses chirp pulses to encode information on radio waves, similar to how dolphins and bats communicate. This technology:
@@ -68,4 +71,4 @@ LoRa operates on license-free sub-GHz ISM bands like:
 
 It can also operate on 2.4 GHz for higher data rates but at the expense of range.
 
-![Bandwidth vs. Range](assets/bandwidth-vs-range.png)
+![Bandwidth vs. Range](assets/500px-SX1268-433M-LoRa-HAT-103.jpg)
