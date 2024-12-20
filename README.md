@@ -2,6 +2,17 @@
 
 Secure, long-range communication system using Raspberry Pi with encrypted radio transmission.
 
+## System Overview
+
+- **WiFi Hotspot:** Raspberry Pi acts as a WiFi access point that mobile or laptop devices can connect to.
+- **Website:** A Svelte application hosted on the Raspberry Pi's gateway IP, providing an interface for users to interact with the LoRa system.
+- **Python API:** Back-end service handling:
+  - Initialization of LoRa communication
+  - Transmission and reception of LoRa signals
+  - Encryption and decryption of messages
+  - System information retrieval
+- **Communication:** Data exchange between the website and Python API using WebSockets for real-time updates and a polling API for status checks.
+
 ## Hardware Requirements
 
 This project requires the following hardware for each node:
