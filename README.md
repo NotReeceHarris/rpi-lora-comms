@@ -1,6 +1,6 @@
 # ![rpi-lora-encrypted-comms](assets/banner-v1.1.png)
 
-Secure, long-range communication system using Raspberry Pi with encrypted radio transmission.
+<ins> Encrypted Long-Range Radio Communication </ins>, Powered by [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) and the LoRa protocol, this project enables secure, offline communication between two nodes using various encryption algorithms, security techniques, and the [LoRa radio protocol](https://en.wikipedia.org/wiki/LoRa). Access the secure web interface via local-nework when connected to the Raspberry Pi's personal hotspot. This setup ensures data privacy and integrity over long distances, making it ideal for scenarios requiring private communication without traditional internet infrastructure.
 
 ## Hardware Requirements
 
@@ -10,6 +10,8 @@ This project requires the following hardware for each node:
 - **Raspberry Pi:** [Raspberry Pi Zero 2 W (With headers)](https://thepihut.com/products/raspberry-pi-zero-2?variant=43855634497731)
 
 **Note:** You will need two sets of this hardware to create a basic point-to-point communication system.
+
+<!--
 
 ## Prerequisites
 
@@ -37,24 +39,17 @@ docker compose up --build -d
 # Stopping the Containers: To stop the running containers
 docker compose down
 ```
-
-<!--
-## System Overview
-
-- **WiFi Hotspot:** Raspberry Pi acts as a WiFi access point that mobile or laptop devices can connect to.
-- **Website:** A Svelte application hosted on the Raspberry Pi's gateway IP, providing an interface for users to interact with the LoRa system.
-- **Python API:** Back-end service handling:
-  - Initialization of LoRa communication
-  - Transmission and reception of LoRa signals
-  - Encryption and decryption of messages
-  - System information retrieval
-- **Communication:** Data exchange between the website and Python API using WebSockets for real-time updates and a polling API for status checks.
 -->
 
-## Docs
+## Documentation
 
+
+
+
+<!--
 - [SX1268 433M LoRa HAT](https://www.waveshare.com/wiki/SX1268_433M_LoRa_HAT)
 - [Docker Compose](https://docs.docker.com/engine/install/debian/)
+-->
 
 ## What is LoRa?
 
