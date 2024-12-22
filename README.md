@@ -4,12 +4,20 @@
 
 ## Hardware Requirements
 
-This project requires the following hardware for each node:
+To implement this project, each node should have the following hardware. While you can adapt this concept to suit other devices, here's the most cost-effective and widely supported setup:
 
-- **LoRa HAT:** [SX1268 LoRa HAT for Raspberry Pi (433MHz)](https://thepihut.com/products/sx1268-lora-hat-for-raspberry-pi-433mhz)
-- **Raspberry Pi:** [Raspberry Pi Zero 2 W (With headers)](https://thepihut.com/products/raspberry-pi-zero-2?variant=43855634497731)
+- **Raspberry Pi:** Raspberry Pi Zero 2 W (With headers)
+- **LoRa HAT:** SX1268 LoRa HAT for Raspberry Pi (433MHz)
 
-**Note:** You will need two sets of this hardware to create a basic point-to-point communication system.
+**Note:** For a basic point-to-point communication system, you'll need two of each item listed above.
+
+## Documentation
+
+- **Raspberry PI:** Setting up your own node.
+- **LoRa Protocol:** What is the LoRa protocol.
+- **Security Conciderations:** How secure is this, what are the potential vulnerabilities?
+
+**Write up:** If your intreseted in my journey creating this project [please read my blog post](https://reeceharris.net/blog/creating-a-secure-radio-communication-system/). *(Beware alot of content)*
 
 <!--
 
@@ -39,17 +47,12 @@ docker compose up --build -d
 # Stopping the Containers: To stop the running containers
 docker compose down
 ```
--->
 
 ## Documentation
 
-
-
-
-<!--
 - [SX1268 433M LoRa HAT](https://www.waveshare.com/wiki/SX1268_433M_LoRa_HAT)
 - [Docker Compose](https://docs.docker.com/engine/install/debian/)
--->
+
 
 ## What is LoRa?
 
@@ -67,3 +70,5 @@ LoRa operates on license-free sub-GHz ISM bands like:
 It can also operate on 2.4 GHz for higher data rates but at the expense of range.
 
 ![Bandwidth vs. Range](assets/500px-SX1268-433M-LoRa-HAT-103.jpg)
+
+-->
