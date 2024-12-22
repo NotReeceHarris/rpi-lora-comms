@@ -6,16 +6,16 @@
 
 To implement this project, each node should have the following hardware. While you can adapt this concept to suit other devices, here's the most cost-effective and widely supported setup:
 
-- **Raspberry Pi:** Raspberry Pi Zero 2 W (With headers)
-- **LoRa HAT:** SX1268 LoRa HAT for Raspberry Pi (433MHz)
+- **Raspberry Pi:** [Raspberry Pi Zero 2 W (With headers)](https://thepihut.com/products/raspberry-pi-zero-2?variant=43855634497731)
+- **LoRa HAT:** [SX1268 LoRa HAT for Raspberry Pi (433MHz)](https://thepihut.com/products/sx1268-lora-hat-for-raspberry-pi-433mhz)
 
 **Note:** For a basic point-to-point communication system, you'll need two of each item listed above.
 
 ## Documentation
 
-- **Raspberry PI:** Setting up your own node.
-- **LoRa Protocol:** What is the LoRa protocol.
-- **Security Conciderations:** How secure is this, what are the potential vulnerabilities?
+- **Raspberry PI:** [Setting up your own node](documentation/setup.md).
+- **LoRa Protocol:** [What is the LoRa protocol](documentation/lora.md).
+- **Security Conciderations:** [How secure is this, what are the potential vulnerabilities?](documentation/security.md)
 
 **Write up:** If your intreseted in my journey creating this project [please read my blog post](https://reeceharris.net/blog/creating-a-secure-radio-communication-system/). *(Beware alot of content)*
 
