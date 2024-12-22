@@ -1,4 +1,4 @@
-# ![rpi-lora-encrypted-comms](assets/logo-ascii.png)
+# ![rpi-lora-encrypted-comms](assets/banner-v1.1.png)
 
 Secure, long-range communication system using Raspberry Pi with encrypted radio transmission.
 
