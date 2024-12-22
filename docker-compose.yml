@@ -7,10 +7,7 @@ services:
       - "3000:3000"
     depends_on:
       - backend
-
   backend:
     build: ./backend
     ports:
       - "8000:8000"
-    environment:
-      - ENVIRONMENT=production

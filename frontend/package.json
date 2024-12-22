@@ -31,6 +31,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"@sveltejs/adapter-node": "^5.2.11"
+		"@sveltejs/adapter-node": "^5.2.11",
+		"axios": "^1.7.9"
 	}
 }
