@@ -1,4 +1,4 @@
-# ![rpi-lora-encrypted-comms](assets/banner-v1.1.png)
+# ![rpi-lora-encrypted-comms](documentation/banner-v1.0.png)
 
 <ins> Encrypted Long-Range Radio Communication </ins>, Powered by [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) and the LoRa protocol, this project enables secure, offline communication between two nodes using various encryption algorithms, security techniques, and the [LoRa radio protocol](https://en.wikipedia.org/wiki/LoRa). Access the secure web interface via local-nework when connected to the Raspberry Pi's personal hotspot. This setup ensures data privacy and integrity over long distances, making it ideal for scenarios requiring private communication without traditional internet infrastructure.
 
