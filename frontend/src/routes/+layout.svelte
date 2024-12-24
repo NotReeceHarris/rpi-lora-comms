@@ -4,12 +4,10 @@
 	console.log(data);
 </script>
 
-{#if data.apiOnline.status === 'online'}
-	<main class="bg-black text-white">
-		{@render children()}
-	</main>
+{#if data.apiOnline.status === 'success'}
+	{@render children()}
 {:else}
 	<main>
-		
+		offline
 	</main>
 {/if}

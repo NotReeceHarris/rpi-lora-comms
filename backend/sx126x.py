@@ -236,10 +236,6 @@ class sx126x:
             print("Power is {0} dBm" + lora_power_dic.get(None,power_temp))
             GPIO.output(M1,GPIO.LOW)
 
-#
-# the data format like as following
-# "node address,frequence,payload"
-# "20,868,Hello World"
     def send(self,data):
         GPIO.output(self.M1,GPIO.LOW)
         GPIO.output(self.M0,GPIO.LOW)
@@ -249,7 +245,6 @@ class sx126x:
         # if self.rssi == True:
             # self.get_channel_rssi()
         time.sleep(0.1)
-
 
     def receive(self):
         if self.ser.inWaiting() > 0:

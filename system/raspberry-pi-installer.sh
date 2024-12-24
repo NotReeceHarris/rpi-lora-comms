@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 echo " "
-echo " "
 echo "$(tput setaf 2)  .~~.   .~~.$(tput sgr0)                       $(tput setaf 21) ___________  $(tput sgr0)"
 echo "$(tput setaf 2) '. \ ' ' / .'$(tput sgr0)                  _  $(tput setaf 21) /  _______  \\$(tput sgr0)_____"
 echo "$(tput setaf 1)   .~ .~~~..~. $(tput sgr0)                | |   $(tput setaf 21) / _____ \\$(tput sgr0) |  __ \\"
@@ -12,7 +11,6 @@ echo "$(tput setaf 1) ~ .~ (   ) ~. ~$(tput sgr0)      |_|      |_____|  \___/  
 echo "$(tput setaf 1)  (  : '~' :  ) $(tput sgr0)                     $(tput setaf 21)  ,_____, $(tput sgr0)"
 echo "$(tput setaf 1)   '~ .~~~. ~'$(tput sgr0)                        $(tput setaf 21)\_______/  $(tput sgr0)"
 echo "$(tput setaf 1)       '~'  $(tput sgr0)                        $(tput setaf 21)\___________/$(tput sgr0)"
-echo " "
 echo " "
 
 # Check if the script is running as root
