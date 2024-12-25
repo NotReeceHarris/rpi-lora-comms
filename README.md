@@ -17,11 +17,11 @@ You will need two nodes as described above. Once both nodes are set up, you can 
 
 If you prefer to complete the setup manually or encounter issues with the installer, please refer to the [manual setup guide](documentation/setup.md). For the installer, you must first enable the serial ports. To do so, run the command `sudo raspi-config`, then navigate to: Interfacing Options → Serial → No → Yes.
 
-![Interfacing Options → Serial → No → Yes](documentation/serial-instructions-v1.0.png)
+![Interfacing Options → Serial → No → Yes](documentation/serial-instructions-v1.1.png)
 
 Once you have enabled the serial port hardware and disabled the login shell over serial, your LoRa component will be ready for communication after properly configuring the SX1268 LoRa HAT jumpers. First, remove all yellow jumpers from the UART selection jumpers **(10)** and LoRa mode selection jumpers **(11)**. Next, add jumpers to B on the UART selection jumpers **(10)**. You do not need to reconnect any of the LoRa mode selection jumpers **(11)**, as the board will be powered via the Raspberry Pi's GPIO pins. The attached image provides a clear visual guide for the jumper configurations.
 
-![Hardware diagram of SX1268 LoRa HAT](documentation/SX1268-LoRa-HAT-v1.5.png)
+![Hardware diagram of SX1268 LoRa HAT](documentation/SX1268-LoRa-HAT-v1.6.png)
 
 <details>
 <summary>Correctly configured jumpers. </summary>
